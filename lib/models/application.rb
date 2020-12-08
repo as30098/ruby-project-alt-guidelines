@@ -85,11 +85,15 @@ class Application
 
   # READ - show appointment(s)
   def show_appointments
+    system 'clear'
     cyclist.show_all_appointments
+    sleep 5
+    main_menu
   end
 
   # UPDATE - change appointment
   def change_appointment
+    system 'clear'
     puts "Which appointment would you like to update?"
     show_appointments
     puts "Select an appointment id."
@@ -103,6 +107,7 @@ class Application
 
   # DELETE - cancel appointment
   def cancel_appointment
+    system 'clear'
     puts "Which appointment would you like to delete?"
     show_appointments
     puts "Select an appointment id."
@@ -117,6 +122,7 @@ class Application
   def reserve_bike
     # user inputs bike brand and we save it to a variable
     # we didn't give the user direct access to the inventory bc they don't have access to it...but they do have access to the repair shop...
+    system 'clear'
     puts "Choose a brand:"
     puts "Schwinn"
     puts "Terry"

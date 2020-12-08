@@ -26,19 +26,19 @@ bedstuy = BikeRepairShop.create(neighborhood: "BedStuy", shop_name: "Velo Bed St
 
 # Bike Inventories Instances
 
-schwinn_williamsburg = BikeInventory.create(brand: "Schwinn", price: 200, bike_inventory_shop_id: williamsburg.id)
+schwinn_williamsburg = BikeInventory.create(brand: "Schwinn", price: 200, bike_repair_shop_id: williamsburg.id)
 
-schwinn_ridgewood = BikeInventory.create(brand: "Schwinn", price: 200, bike_inventory_shop_id: ridgewood.id)
+schwinn_ridgewood = BikeInventory.create(brand: "Schwinn", price: 200, bike_repair_shop_id: ridgewood.id)
 
-terry_woodside = BikeInventory.create(brand: "Terry", price: 300, bike_inventory_shop_id: woodside.id)
+terry_woodside = BikeInventory.create(brand: "Terry", price: 300, bike_repair_shop_id: woodside.id)
 
-terry_bushwick = BikeInventory.create(brand: "Terry", price: 300, bike_inventory_shop_id: bushwick.id)
+terry_bushwick = BikeInventory.create(brand: "Terry", price: 300, bike_repair_shop_id: bushwick.id)
 
-peugeot_bedstuy = BikeInventory.create(brand: "Peugeot", price: 400, bike_inventory_shop_id: bedstuy.id)
+peugeot_bedstuy = BikeInventory.create(brand: "Peugeot", price: 400, bike_repair_shop_id: bedstuy.id)
 
-bianchi_williamsburg = BikeInventory.create(brand: "Bianchi", price: 500, bike_inventory_shop_id: williamsburg.id)
+bianchi_williamsburg = BikeInventory.create(brand: "Bianchi", price: 500, bike_repair_shop_id: williamsburg.id)
 
-cannondale_bushwick = BikeInventory.create(brand: "Cannondale", price: 800, bike_inventory_shop_id: bushwick.id)
+cannondale_bushwick = BikeInventory.create(brand: "Cannondale", price: 800, bike_repair_shop_id: bushwick.id)
 
 # Appointment Instances
 

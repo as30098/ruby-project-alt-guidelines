@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2020_12_02_194103) do
   create_table "bike_inventories", force: :cascade do |t|
     t.string "brand"
     t.float "price"
-    t.integer "bike_inventory_shop_id"
+    t.integer "bike_repair_shop_id"
   end
 
   create_table "bike_repair_shops", force: :cascade do |t|
